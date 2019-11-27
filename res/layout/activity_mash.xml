@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+    android:background="#FAF7F2"
+android:layout_height="match_parent"
+tools:context=".MashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textOne"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/apercu_bold"
+            android:text="Meet Mash!"
+            android:textSize="40dp"
+            />
+        <TextView
+            android:id="@+id/textTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textOne"
+            android:fontFamily="@font/apercu_medium"
+            android:text="Penko's friend"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/textTwo"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/mashimage"
+            />
+
+        <TextView
+            android:id="@+id/textThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imageView"
+            android:fontFamily="@font/apercu_medium"
+            android:text="Aerobic instructor \n who can't swim, but is part prawn"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textThree"
+            android:fontFamily="@font/apercu_medium"
+            android:text="Creature Type:"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/textFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textFour"
+            android:fontFamily="@font/freight_medium"
+            android:text="PePe creature"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textFive"
+            android:fontFamily="@font/apercu_medium"
+            android:text="Characterised by:"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/textSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textSix"
+            android:fontFamily="@font/freight_medium"
+            android:text="Sweet blush  rounded physique"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/buttonSecond"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/textSeven"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/apercu_bold"
+            android:textColor="@android:color/white"
+            android:background="#5A6175"
+            android:text="NEXT" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</ScrollView>

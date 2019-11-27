@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".PenkoActivity">
+
+
+    <TextView
+        android:id="@+id/textOne"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apercu_bold"
+        android:text="Meet Penko!"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:id="@+id/textTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textOne"
+        android:fontFamily="@font/apercu_medium"
+        android:text="A yellow, pointy YaYa creature"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTwo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/apercu_medium"
+        android:text="THE GAME:"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textThree"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/apercu_medium"
+        android:text="Help Penko find his friends in \n Tobias Park"
+        android:gravity="center"
+        android:textSize="16dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/penko"
+
+        />
+
+
+<Button
+    android:id="@+id/buttonMeet"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:textSize="30dp"
+    android:fontFamily="@font/apercu_bold"
+    android:textColor="@android:color/white"
+    android:background="#5A6175"
+    android:text="MEET FRIENDS" />
+
+
+
+
+</RelativeLayout>

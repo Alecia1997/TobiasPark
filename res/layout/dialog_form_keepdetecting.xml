@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#5A6175"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textOne"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apercu_bold"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Hey there friend"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/textTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textOne"
+        android:fontFamily="@font/apercu_medium"
+        android:text="Looks like you haven't found any of Penko's friends yet"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textTwo"
+        android:fontFamily="@font/apercu_medium"
+        android:text="Don't give up, try again!"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/textThree"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/KeepDetecting"
+            android:layout_width="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="40dp"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/apercu_bold"
+            android:textColor="@android:color/white"
+            android:background="#5A6175"
+            android:text="OKAY" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

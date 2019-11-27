@@ -1,0 +1,3 @@
+/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/tensorflow_demo.dir

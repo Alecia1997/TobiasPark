@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".DataActivity1">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textOne"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apercu_bold"
+        android:text="DATA"
+        android:textSize="40dp"
+        />
+    <TextView
+        android:id="@+id/textTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textOne"
+        android:fontFamily="@font/apercu_medium"
+        android:text="Visualisation of algorithmic model"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/decrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTwo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/freight_medium"
+        android:text="The image below represents the training data used to teach the algorithmic model how to find Penko’s friends. Review the model to see if you can spot why Beau was not found."
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_height="200dp"
+        android:layout_below="@id/decrip"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/qforpink"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:fontFamily="@font/apercu_medium"
+        android:text="What went wrong?"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/textFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textFour"
+        android:fontFamily="@font/freight_medium"
+        android:text="There aren’t enough images representing BluBlu creatures like Beau. This means that the algorithmic model performs bad when trying to find Beau because it’s still unsure what to exactly look for."
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textFive"
+        android:fontFamily="@font/apercu_medium"
+        android:text="How can we fix it?"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/textSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textSix"
+        android:fontFamily="@font/freight_medium"
+        android:text="We need to add more training images representing BluBlu creatures like Beau. The algorithmic model will then know what to look for when searching for Penko’s friend Beau."
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textEight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textSeven"
+        android:fontFamily="@font/apercu_medium"
+        android:text="Ask Penko for some help?"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/textNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textEight"
+        android:fontFamily="@font/freight_medium"
+        android:text="Penko knows what BluBlu creatures like Beau in Tobias Park look like. Pick Penko’s brain to gather some more images to train the algorithmic model."
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/okay"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/textNine"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/apercu_bold"
+        android:textColor="@android:color/white"
+        android:background="#5A6175"
+        android:text="OKAY" />
+
+</RelativeLayout>
+
+
+
+
+
+
+</ScrollView>

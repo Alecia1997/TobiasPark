@@ -1,0 +1,119 @@
+
+{
+	"buildFiles" : 
+	[
+		"/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/lily/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"tensorflow_demo-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "/Users/lily/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a --target tensorflow_demo",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/imageutils_jni.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/frame_pair.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/image_neon.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/logging.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/object_detector.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/object_tracker.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/optical_flow.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/time_log.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/tracked_object.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/object_tracking/utils_neon.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/rgb2yuv.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages -I/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -mfloat-abi=softfp -mfpu=neon -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/jni/yuv2rgb.cc",
+					"workingDirectory" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/miniconda3/envs/tensorflow/lib/python3.6/site-packages/tensorflow/examples/android/gradleBuild/intermediates/cmake/debug/obj/armeabi-v7a/libtensorflow_demo.so",
+			"toolchain" : "6694667598700302854"
+		}
+	},
+	"toolchains" : 
+	{
+		"6694667598700302854" : 
+		{
+			"cCompilerExecutable" : "/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/lily/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

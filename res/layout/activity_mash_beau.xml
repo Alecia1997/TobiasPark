@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MashBeauActivity">
+
+
+<TextView
+    android:id="@+id/textOne"
+    android:layout_marginTop="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/apercu_bold"
+    android:text="Mash &amp; Beau"
+    android:textSize="40dp"
+    />
+<TextView
+    android:id="@+id/textTwo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/textOne"
+    android:fontFamily="@font/apercu_medium"
+    android:text="Penko sure knows how to pick em!"
+    android:layout_marginTop="20dp"
+    android:textSize="16dp" />
+
+
+
+<TextView
+    android:id="@+id/textThree"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/textTwo"
+    android:fontFamily="@font/apercu_medium"
+    android:text="But the question is:"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    android:textSize="18dp" />
+
+<TextView
+    android:id="@+id/textFour"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/textThree"
+    android:fontFamily="@font/apercu_medium"
+    android:text="Can you help Penko find them?"
+    android:gravity="center"
+    android:layout_marginTop="5dp"
+    android:textSize="14dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/mashbeau"
+
+        />
+<Button
+    android:id="@+id/buttonOpenCamera"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:textSize="30dp"
+    android:fontFamily="@font/apercu_bold"
+    android:textColor="@android:color/white"
+    android:background="#5A6175"
+    android:text="OPEN CAMERA" />
+
+
+
+
+</RelativeLayout>

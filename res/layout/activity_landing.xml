@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LandingActivity">
+
+
+    <TextView
+        android:id="@+id/textHi"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apercu_bold"
+        android:text="Hi, Friend!"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_below="@id/textHi"
+        android:fontFamily="@font/apercu_medium"
+        android:text="Welcome to Tobias Park"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textWelcome"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/apercu_medium"
+        android:text="Do you want to learn about AI Bias?"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="30dp"
+        android:fontFamily="@font/apercu_bold"
+        android:textColor="@android:color/white"
+
+android:background="#5A6175"
+        android:text="START" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttonStart"
+        android:background="@drawable/landingimage"
+        android:gravity="center"
+        />
+
+
+</RelativeLayout>
